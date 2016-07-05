@@ -1,0 +1,13 @@
+ext {
+    ARTIFACT_ID = 'view-gesture'
+    VERSION_NAME = '1.0.0'
+    VERSION_CODE = 1 //your version
+    DESCRIPTION = 'GestureDetector'
+    SITE_URL = 'https://github.com/doulala1986/android-gesture-detectors'
+    GIT_URL = 'https://github.com/doulala1986/android-gesture-detectors.git'
+    GROUP_NAME = 'com.ctsi.android'
+    COMPILE_SDK = 23
+    BUILD_TOOLS = '23.0.2'
+    MODULE_NAME = 'library'
+    IS_UPLOADING = project.getGradle().startParameter.taskNames.any{it.contains('bintrayUpload')}
+}

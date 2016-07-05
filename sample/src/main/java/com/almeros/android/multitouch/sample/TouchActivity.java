@@ -89,9 +89,9 @@ public class TouchActivity extends Activity implements OnTouchListener {
 	
 	@SuppressWarnings("deprecation")
 	public boolean onTouch(View v, MotionEvent event) {
-        mScaleDetector.onTouchEvent(event);
-        mRotateDetector.onTouchEvent(event);
-        mMoveDetector.onTouchEvent(event);
+//        mScaleDetector.onTouchEvent(event);
+//        mRotateDetector.onTouchEvent(event);
+//        mMoveDetector.onTouchEvent(event);
         mShoveDetector.onTouchEvent(event);
 
         float scaledImageCenterX = (mImageWidth*mScaleFactor)/2;
